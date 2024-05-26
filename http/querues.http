@@ -1,0 +1,15 @@
+#ProductServiceImpl.createProduct
+POST http://localhost:37643/product
+Content-Type: application/json
+
+{
+  "title": "NetBeans_3",
+  "price": 3,
+  "quantity": 3
+}
+
+###mockservice 200
+GET http://localhost:8090/response/200
+
+###mockservice 500
+GET http://localhost:8090/response/500
